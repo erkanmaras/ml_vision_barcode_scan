@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "94765960272",
+    "firebase_url": "https://erkan-ml-vision.firebaseio.com",
+    "project_id": "erkan-ml-vision",
+    "storage_bucket": "erkan-ml-vision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94765960272:android:ace4bb3f8e6aa9d7f01555",
+        "android_client_info": {
+          "package_name": "com.erkan.barcodescan.ml_vision_barcode_scan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94765960272-k238eqd5c6fvf3jd836463n4gge2tg2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdkftptT_CDJJFkaTbkVozVo71AJ1Mi_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94765960272-k238eqd5c6fvf3jd836463n4gge2tg2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,7 +22,9 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
 
 android {
     compileSdkVersion 28
@@ -34,7 +36,7 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.erkan.barcodescan.ml_vision_barcode_scan"
-        minSdkVersion 16
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -46,6 +48,10 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
         }
+    }
+
+      dependencies {
+        api 'com.google.firebase:firebase-ml-vision-image-label-model:17.0.2'
     }
 }
 
